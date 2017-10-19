@@ -1,0 +1,9 @@
+path_to_goal: {puzzle.actions}
+cost_of_path: {puzzle.path_cost}
+nodes_expanded: {puzzle.nodes_expanded}
+fringe_size: {puzzle.fringe_size}
+max_fringe_size: {puzzle.max_fringe_size}
+search_depth: {puzzle.search_depth}
+max_search_depth: {puzzle.max_search_depth}
+running_time: {puzzle.running_time}
+max_ram_usage: {getrusage(RUSAGE_SELF)[2]/(1024**2)}
